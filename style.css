@@ -1,0 +1,41 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  direction: rtl;
+}
+
+header {
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 40px 20px;
+  border-bottom: 5px solid #003b8a;
+}
+
+.cover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  background: white;
+  color: #004aad;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: #003b8a;
+  color: white;
+}
